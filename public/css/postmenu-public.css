@@ -1,0 +1,75 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ .notification-messaje {
+    background: #fff;
+    border-left: 4px solid #fff;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    padding: 1px 12px;
+    padding-right: 38px;
+    position: absolute;
+    margin: 5px 15px;
+    border-left-color: #46b450;
+    outline: 0;
+    z-index: 100;
+    width: calc(100% - 40px);
+ }
+ .notification-messaje p {
+    margin: .5em 0;
+    padding: 2px;
+    font-size: 13px;
+    line-height: 1.5;
+ }
+ button.notification-dismiss {
+    position: absolute;
+    top: 0;
+    right: 1px;
+    border: none;
+    margin: 0;
+    padding: 9px;
+    background: 0 0;
+    color: #b4b9be;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+ }
+ button.notification-dismiss::before{
+    background: 0 0;
+    color: #b4b9be;
+    content: "\f153";
+    display: block;
+    font: 400 16px/20px dashicons;
+    speak: none;
+    height: 20px;
+    text-align: center;
+    width: 20px;
+    -webkit-font-smoothing: antialiased;
+ }
+ button.notification-dismiss:hover,
+ button.notification-dismiss:focus {
+     background: 0 0;
+ }
+ button.notification-dismiss:hover::before,
+button.notification-dismiss:hover::before{
+    color: #c00;
+ }
+ button.notification-dismiss span {
+    color: #FFF;
+    position: absolute;
+    margin: -1px;
+    padding: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    border: 0;
+    word-wrap: normal!important;
+ }
+#wpadminbar img.copy-post-img {
+    width: 23px;
+    height: 100%;
+}

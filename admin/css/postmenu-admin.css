@@ -1,0 +1,270 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ /*Menu dropdown css*/
+.postmenu-save-button-menu {
+    background: #0085ba;
+    border-color: #0073aa #006799 #006799;
+    -webkit-box-shadow: 0 1px 0 #006799;
+    box-shadow: 0 1px 0 #006799;
+    color: #fff !important;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    margin: 0 0 0 -3px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    -webkit-border-radius: 3px;
+    border-radius: 0 3px 3px 0;
+    white-space: nowrap;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 30px;
+    line-height: 28px;
+    padding: 0 12px 2px;
+    border-left: 0;
+}
+@media screen and (max-width: 782px){
+    .postmenu-save-button-menu{
+        padding: 6px 14px;
+        line-height: normal;
+        font-size: 14px;
+        vertical-align: middle;
+        height: auto;
+        margin-bottom: 4px;
+    }
+}
+.postmenu-advanced-duplicate-container {
+    background-color: #f9f9f9;
+}
+.postmenu-button-menu{
+    padding: 4px 8px;
+    position: relative;
+    top: -3px;
+    text-decoration: none;
+    border: none;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 0 2px 2px 0;
+    border-radius: 0 2px 2px 0;
+    background: #f7f7f7;
+    text-shadow: none;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: normal;
+    color: #0073aa;
+    cursor: pointer;
+    outline: 0;
+    border-left: 0;
+}
+@media screen and (max-width: 782px){
+    .postmenu-button-menu {
+        padding: 10px 15px;
+        font-size: 14px;
+        white-space: nowrap;
+    }
+}
+.postmenu-dropdown-menu {
+    background-color: #FFF;
+    position: absolute;
+    z-index: 1001;
+    left: 100px;
+    padding: 0 10px;
+    margin-top: -3px;
+    display: none;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    background-clip: padding-box;
+}
+.postmenu-dropdown-menu.contained {
+    text-align: left;
+    left: inherit;
+    margin-top: 1px;
+    width: 102px;
+}
+.postmenu-menu-list {
+    margin: 10px 0;
+}
+.postmenu-menu-list a {
+    text-decoration: none;
+}
+.postmenu-dropdown-menu.contained .postmenu-menu-list li {
+    margin: 0;
+}
+ /*Options page css*/
+.postmenu-label-form {
+    display: block;
+    float: left;
+    width: 100%;
+}
+.postmenu-label-inline {
+    margin: 0 10px 0 0;
+}
+h2 .nav-tab:focus {
+    box-shadow: none;
+}
+.postmenu-advanced-duplicate-form {
+    padding: 0;
+    margin: 0;
+}
+a.lp-disabled {
+    cursor: not-allowed;
+    pointer-events: none;
+    opacity: 0.65;
+    filter: alpha(opacity=65);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.postmenu-advanced-menu-item-container {
+    float: left;
+    margin: 2px 10px 5px 0;
+    color: #666;
+    width: calc(100% - 12px);
+}
+.postmenu-advanced-menu-item-bar {
+    background: #f7f7f7;
+    border: 1px solid #e5e5e5;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+.postmenu-advanced-menu-item-title h4 {
+    margin: 0;
+    padding: 7px 15px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.postmenu-arrow {
+    font: 400 20px/1 dashicons;
+    float: right;
+    position: relative;
+    cursor: pointer;
+    color: #72777c;
+}
+.postmenu-arrow:hover {
+    color: #23282d;
+}
+.postmenu-arrow::after {
+    right: 0;
+    content: "\f140";
+    border: none;
+    background: 0 0;
+    speak: none;
+    padding: 3px;
+    text-indent: 0;
+    text-align: center;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-decoration: none!important;
+    top: 5px;
+}
+.postmenu-arrow.up::after{
+    content: "\f142";
+}
+.postmenu-advanced-menu-item-fields {
+    padding: 10px;
+    border: 1px solid #e5e5e5;
+    float: left;
+}
+.postmenu-advanced-menu-item-fields .subsubsub {
+    margin-left: -2px;
+}
+.postmenu-item-roles {
+    margin: 10px 0 0;
+}
+.lp-col-2 {
+    width: 31%;
+    float: left;
+    margin: 2px 0;
+}
+.lp-col-3 {
+    width: 33%;
+    float: left;
+    margin: 2px 0;
+}
+.lp-col-4 {
+    width: 36%;
+    float: left;
+    margin: 2px 0;
+}
+.lp-col-5 {
+    width: 50%;
+    float: left;
+    margin: 2px 0;
+}
+.lp-col-8 {
+    width: 66%;
+    float: left;
+    margin: 2px 0;
+}
+@media screen and (max-width: 782px){
+    .postmenu-advanced-menu-item-container {
+        width: 100%;
+    }
+    .lp-col-2,
+    .lp-col-3,
+    .lp-col-4,
+    .lp-col-5,
+    .lp-col-8 {
+         width: 100%;
+    }
+    .lp-col-sm5 {
+        width: 50%;
+    }
+    .title-label.action,
+    .inline-edit-row fieldset label.title-label.action { 
+        display: block;
+    }
+    .title-label .regular-text,
+    .inline-edit-row fieldset label.title-label .regular-text {
+        width: 100%;
+    }
+}
+.title-label,
+.inline-edit-row fieldset label.title-label { 
+    display: inline;
+    text-transform: capitalize;
+    font-size: 13px;
+    margin-right: 5px;
+}
+.title-label.sub,
+.inline-edit-row fieldset label.title-label.sub { 
+    text-transform: none;
+}
+.title-label select {
+    vertical-align: top;
+}
+#edit-slug-buttons button {
+    margin-left: 5px;
+}
+.inline-edit-row fieldset.nav-menus-php label,
+.inline-edit-row fieldset.nav-menus-php span.inline-edit-categories-label {
+    margin: 0;
+    line-height: inherit;
+}
+.postmenu-advanced-duplicate-form .nav-menus-php .item-edit:focus:before {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.menu-settings-group label,
+.inline-edit-row fieldset.menu-settings-group label {
+    display: inline;
+}
+
+ul.terms-checklist {
+    height: 12em;
+    border: 1px solid #ddd;
+    overflow-y: scroll;
+    padding: 0 5px;
+    margin: 0;
+    background-color: #fff;
+}
